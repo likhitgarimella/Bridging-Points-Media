@@ -223,10 +223,10 @@
             </objects>
             <point key="canvasLocation" x="1338" y="20"/>
         </scene>
-        <!--View Controller-->
+        <!--Cms View Controller-->
         <scene sceneID="5KI-eh-ANb">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Gpf-oc-dua" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Gpf-oc-dua" customClass="CmsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7iq-vy-uop">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -238,10 +238,10 @@
             </objects>
             <point key="canvasLocation" x="2806" y="289"/>
         </scene>
-        <!--View Controller-->
+        <!--Ecommerce Solutions View Controller-->
         <scene sceneID="pZw-ab-GXH">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vck-q2-FiW" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vck-q2-FiW" customClass="EcommerceSolutionsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zH4-1B-ngp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -253,10 +253,10 @@
             </objects>
             <point key="canvasLocation" x="3586" y="289"/>
         </scene>
-        <!--View Controller-->
+        <!--Google Adwords View Controller-->
         <scene sceneID="Tfk-EC-bse">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="f00-9V-Ovx" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="f00-9V-Ovx" customClass="GoogleAdwordsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7j4-uq-3av">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -268,10 +268,10 @@
             </objects>
             <point key="canvasLocation" x="4357" y="288"/>
         </scene>
-        <!--View Controller-->
+        <!--Lead Generation View Controller-->
         <scene sceneID="QDm-8D-WXQ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="wgI-Je-lQR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="wgI-Je-lQR" customClass="LeadGenerationViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gNL-NW-iwp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -283,10 +283,10 @@
             </objects>
             <point key="canvasLocation" x="5129" y="288"/>
         </scene>
-        <!--View Controller-->
+        <!--Logo Design View Controller-->
         <scene sceneID="caV-aB-7kI">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Daq-FH-hz3" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Daq-FH-hz3" customClass="LogoDesignViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sKd-Rc-QPE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -298,10 +298,10 @@
             </objects>
             <point key="canvasLocation" x="5897" y="288"/>
         </scene>
-        <!--View Controller-->
+        <!--Public Relations View Controller-->
         <scene sceneID="njT-8X-QuT">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="keo-6D-fwj" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="keo-6D-fwj" customClass="PublicRelationsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xT2-P3-kEo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -313,10 +313,10 @@
             </objects>
             <point key="canvasLocation" x="6667" y="288"/>
         </scene>
-        <!--View Controller-->
+        <!--Marketing View Controller-->
         <scene sceneID="A3G-U5-AWy">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="ybX-eu-pXP" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="ybX-eu-pXP" customClass="MarketingViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VL4-Mf-7Fi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -328,10 +328,10 @@
             </objects>
             <point key="canvasLocation" x="7452" y="289"/>
         </scene>
-        <!--View Controller-->
+        <!--Search Engine View Controller-->
         <scene sceneID="nsX-3B-jGP">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="xl1-Hg-buj" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="xl1-Hg-buj" customClass="SearchEngineViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NoL-EB-4MC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -343,10 +343,10 @@
             </objects>
             <point key="canvasLocation" x="8254" y="289"/>
         </scene>
-        <!--View Controller-->
+        <!--Social Media View Controller-->
         <scene sceneID="IaD-h6-XhB">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="nMb-it-ABA" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="nMb-it-ABA" customClass="SocialMediaViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Su-Vy-BHC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -358,10 +358,10 @@
             </objects>
             <point key="canvasLocation" x="9067" y="289"/>
         </scene>
-        <!--View Controller-->
+        <!--Web App Design Dev View Controller-->
         <scene sceneID="6ff-QJ-EKQ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="OFG-ZL-GxV" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="OFG-ZL-GxV" customClass="WebAppDesignDevViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9hH-92-5Fu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

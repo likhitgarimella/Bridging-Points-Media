@@ -13,6 +13,12 @@
 		02275744262AD1CB00FEAF43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02275742262AD1CB00FEAF43 /* Main.storyboard */; };
 		02275746262AD1CC00FEAF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02275745262AD1CC00FEAF43 /* Assets.xcassets */; };
 		02275749262AD1CC00FEAF43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02275747262AD1CC00FEAF43 /* LaunchScreen.storyboard */; };
+		029CA347262C2894007087F2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA346262C2894007087F2 /* AboutViewController.swift */; };
+		029CA34A262C28E1007087F2 /* AdsNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA349262C28E1007087F2 /* AdsNetworkViewController.swift */; };
+		029CA34D262C2908007087F2 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA34C262C2908007087F2 /* ServicesViewController.swift */; };
+		029CA350262C2922007087F2 /* DigitalConsultancyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA34F262C2922007087F2 /* DigitalConsultancyViewController.swift */; };
+		029CA353262C293E007087F2 /* DigitalTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA352262C293E007087F2 /* DigitalTrainingViewController.swift */; };
+		029CA356262C2960007087F2 /* HiringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA355262C2960007087F2 /* HiringViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		02275745262AD1CC00FEAF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02275748262AD1CC00FEAF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0227574A262AD1CC00FEAF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029CA346262C2894007087F2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		029CA349262C28E1007087F2 /* AdsNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsNetworkViewController.swift; sourceTree = "<group>"; };
+		029CA34C262C2908007087F2 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		029CA34F262C2922007087F2 /* DigitalConsultancyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalConsultancyViewController.swift; sourceTree = "<group>"; };
+		029CA352262C293E007087F2 /* DigitalTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalTrainingViewController.swift; sourceTree = "<group>"; };
+		029CA355262C2960007087F2 /* HiringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiringViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,12 @@
 				02275742262AD1CB00FEAF43 /* Main.storyboard */,
 				02275745262AD1CC00FEAF43 /* Assets.xcassets */,
 				02275740262AD1CB00FEAF43 /* ViewController.swift */,
+				029CA346262C2894007087F2 /* AboutViewController.swift */,
+				029CA349262C28E1007087F2 /* AdsNetworkViewController.swift */,
+				029CA34C262C2908007087F2 /* ServicesViewController.swift */,
+				029CA34F262C2922007087F2 /* DigitalConsultancyViewController.swift */,
+				029CA352262C293E007087F2 /* DigitalTrainingViewController.swift */,
+				029CA355262C2960007087F2 /* HiringViewController.swift */,
 				0227574A262AD1CC00FEAF43 /* Info.plist */,
 			);
 			path = "Bridging Points Media";
@@ -137,9 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				029CA34D262C2908007087F2 /* ServicesViewController.swift in Sources */,
 				02275741262AD1CB00FEAF43 /* ViewController.swift in Sources */,
 				0227573D262AD1CB00FEAF43 /* AppDelegate.swift in Sources */,
+				029CA350262C2922007087F2 /* DigitalConsultancyViewController.swift in Sources */,
+				029CA347262C2894007087F2 /* AboutViewController.swift in Sources */,
 				0227573F262AD1CB00FEAF43 /* SceneDelegate.swift in Sources */,
+				029CA356262C2960007087F2 /* HiringViewController.swift in Sources */,
+				029CA34A262C28E1007087F2 /* AdsNetworkViewController.swift in Sources */,
+				029CA353262C293E007087F2 /* DigitalTrainingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

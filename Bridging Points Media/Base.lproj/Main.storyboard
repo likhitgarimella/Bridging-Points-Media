@@ -103,10 +103,10 @@
             </objects>
             <point key="canvasLocation" x="1339" y="-977"/>
         </scene>
-        <!--View Controller-->
+        <!--Advertiser View Controller-->
         <scene sceneID="qaA-co-EqN">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="RDW-P0-zWX" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="RDW-P0-zWX" customClass="AdvertiserViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7AW-bj-Li6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,10 +119,10 @@
             </objects>
             <point key="canvasLocation" x="2119" y="-1548"/>
         </scene>
-        <!--View Controller-->
+        <!--Publisher View Controller-->
         <scene sceneID="s97-IY-B5H">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="42o-dH-cic" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="42o-dH-cic" customClass="PublisherViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4hx-jP-Jeb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

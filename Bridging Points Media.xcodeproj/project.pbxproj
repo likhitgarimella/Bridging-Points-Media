@@ -19,6 +19,7 @@
 		029CA350262C2922007087F2 /* DigitalConsultancyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA34F262C2922007087F2 /* DigitalConsultancyViewController.swift */; };
 		029CA353262C293E007087F2 /* DigitalTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA352262C293E007087F2 /* DigitalTrainingViewController.swift */; };
 		029CA356262C2960007087F2 /* HiringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA355262C2960007087F2 /* HiringViewController.swift */; };
+		029CA359262C38DC007087F2 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA358262C38DC007087F2 /* BlogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		029CA34F262C2922007087F2 /* DigitalConsultancyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalConsultancyViewController.swift; sourceTree = "<group>"; };
 		029CA352262C293E007087F2 /* DigitalTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalTrainingViewController.swift; sourceTree = "<group>"; };
 		029CA355262C2960007087F2 /* HiringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiringViewController.swift; sourceTree = "<group>"; };
+		029CA358262C38DC007087F2 /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				029CA34F262C2922007087F2 /* DigitalConsultancyViewController.swift */,
 				029CA352262C293E007087F2 /* DigitalTrainingViewController.swift */,
 				029CA355262C2960007087F2 /* HiringViewController.swift */,
+				029CA358262C38DC007087F2 /* BlogViewController.swift */,
 				0227574A262AD1CC00FEAF43 /* Info.plist */,
 			);
 			path = "Bridging Points Media";
@@ -161,6 +164,7 @@
 				029CA350262C2922007087F2 /* DigitalConsultancyViewController.swift in Sources */,
 				029CA347262C2894007087F2 /* AboutViewController.swift in Sources */,
 				0227573F262AD1CB00FEAF43 /* SceneDelegate.swift in Sources */,
+				029CA359262C38DC007087F2 /* BlogViewController.swift in Sources */,
 				029CA356262C2960007087F2 /* HiringViewController.swift in Sources */,
 				029CA34A262C28E1007087F2 /* AdsNetworkViewController.swift in Sources */,
 				029CA353262C293E007087F2 /* DigitalTrainingViewController.swift in Sources */,

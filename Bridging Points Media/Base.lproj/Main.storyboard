@@ -63,8 +63,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="About" width="30" height="30"/>
-        <image name="Home" width="23" height="26"/>
+        <image name="About" width="24" height="24"/>
+        <image name="Home" width="24" height="24"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

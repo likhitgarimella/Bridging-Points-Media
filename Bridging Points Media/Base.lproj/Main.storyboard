@@ -133,7 +133,7 @@
         <!--Blog-->
         <scene sceneID="iQm-nb-8U5">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="xSK-wa-uKL" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="xSK-wa-uKL" customClass="BlogViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mgh-zy-KIF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

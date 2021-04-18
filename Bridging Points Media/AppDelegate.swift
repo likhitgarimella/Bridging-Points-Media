@@ -3,6 +3,7 @@
 //  Bridging Points Media
 //
 //  Created by Likhit Garimella on 17/04/21.
+//  Copyright © 2021 Likhit Garimella. All rights reserved.
 //
 
 import UIKit
@@ -15,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // Override point for customization after application launch.
+        
+        UITabBar.appearance().barTintColor = .white
+        UITabBar.appearance().tintColor = .systemBlue
+        
+        UINavigationBar.appearance().barTintColor = .white
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.black]
         
         /// Status bar color
         /// In Info.plist, View controller-based status bar appearance -> NO
@@ -46,4 +53,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-}   // #50
+}   // #57

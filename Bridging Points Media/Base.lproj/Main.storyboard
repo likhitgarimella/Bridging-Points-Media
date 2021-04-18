@@ -5,19 +5,18 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--About-->
         <scene sceneID="PwQ-og-rdb">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="EoE-OB-WbR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="EoE-OB-WbR" customClass="AboutViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lxL-dO-17a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="QIf-3w-OSg"/>
-                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="About" id="KAT-eh-YaF"/>
                 </viewController>
@@ -28,12 +27,12 @@
         <!--Ads-->
         <scene sceneID="0Iq-vC-zG3">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="ycF-1a-HEu" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="ycF-1a-HEu" customClass="AdsNetworkViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NYg-Zc-yjN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="qna-B5-4iT"/>
-                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Ads" image="Ads" id="ykc-SE-2S6"/>
                 </viewController>
@@ -85,12 +84,12 @@
         <!--Services-->
         <scene sceneID="bF8-88-H1u">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="LhH-Q0-VGb" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="LhH-Q0-VGb" customClass="ServicesViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gze-5f-NHJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Fg5-Et-PfP"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Services" image="Services" id="9ZJ-1w-jhX"/>
                 </viewController>
@@ -101,12 +100,12 @@
         <!--Consultancy-->
         <scene sceneID="15P-BV-D2Q">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="jnf-z3-qH8" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="jnf-z3-qH8" customClass="DigitalConsultancyViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QHp-Ol-3E1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="cpv-1C-ACK"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Consultancy" image="Consultancy" id="7Ez-O8-pRy"/>
                 </viewController>
@@ -117,12 +116,12 @@
         <!--Training-->
         <scene sceneID="KCU-Cd-5ai">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="0th-w6-YJo" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="0th-w6-YJo" customClass="DigitalTrainingViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QKI-Lw-uXj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="4ey-Hi-8bk"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Training" image="Training" id="fgG-Km-H0L"/>
                 </viewController>
@@ -133,12 +132,12 @@
         <!--Hiring-->
         <scene sceneID="mpQ-7R-sao">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="1zk-ss-RIM" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="1zk-ss-RIM" customClass="HiringViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iCY-66-W6q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="kYP-5P-atC"/>
-                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Hiring" image="Hiring" id="9JL-rv-DZP"/>
                 </viewController>
@@ -155,23 +154,5 @@
         <image name="Home" width="24" height="24"/>
         <image name="Services" width="24" height="24"/>
         <image name="Training" width="24" height="24"/>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>

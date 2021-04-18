@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,21 +25,115 @@
             </objects>
             <point key="canvasLocation" x="-494" y="-977"/>
         </scene>
-        <!--Ads-->
+        <!--Ads Network View Controller-->
         <scene sceneID="0Iq-vC-zG3">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="ycF-1a-HEu" customClass="AdsNetworkViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NYg-Zc-yjN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cn-qI-6c6">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="80d-ZC-F20"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Advertiser Sign Up">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RDW-P0-zWX" kind="show" id="JRg-Y1-kCA"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wgm-QC-y2z">
+                                <rect key="frame" x="20" y="88" width="394" height="0.6666666666666714"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="GxB-Gq-2jN"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRG-I7-5EU">
+                                <rect key="frame" x="0.0" y="88.666666666666671" width="414" height="44.000000000000014"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9Hr-zy-Tww"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Publisher Sign Up">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="42o-dH-cic" kind="show" id="c7l-j7-Bkl"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3T-xv-YGQ">
+                                <rect key="frame" x="20" y="132.66666666666666" width="394" height="0.33333333333334281"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="SgU-Jl-cQP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="qna-B5-4iT"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0cn-qI-6c6" firstAttribute="top" secondItem="qna-B5-4iT" secondAttribute="top" id="2KA-Gq-Qvg"/>
+                            <constraint firstItem="Wgm-QC-y2z" firstAttribute="leading" secondItem="qna-B5-4iT" secondAttribute="leading" constant="20" id="7PB-4c-FNM"/>
+                            <constraint firstItem="qRG-I7-5EU" firstAttribute="trailing" secondItem="qna-B5-4iT" secondAttribute="trailing" id="Ezj-L4-3RD"/>
+                            <constraint firstItem="b3T-xv-YGQ" firstAttribute="leading" secondItem="NYg-Zc-yjN" secondAttribute="leading" constant="20" id="KoX-VG-kvf"/>
+                            <constraint firstItem="b3T-xv-YGQ" firstAttribute="top" secondItem="qRG-I7-5EU" secondAttribute="bottom" id="O8p-o6-3eg"/>
+                            <constraint firstItem="0cn-qI-6c6" firstAttribute="leading" secondItem="qna-B5-4iT" secondAttribute="leading" id="SFY-wX-94c"/>
+                            <constraint firstItem="qRG-I7-5EU" firstAttribute="leading" secondItem="qna-B5-4iT" secondAttribute="leading" id="Z2l-qN-zRH"/>
+                            <constraint firstAttribute="trailing" secondItem="b3T-xv-YGQ" secondAttribute="trailing" id="Zbc-Qu-xUB"/>
+                            <constraint firstItem="qna-B5-4iT" firstAttribute="trailing" secondItem="Wgm-QC-y2z" secondAttribute="trailing" id="bVt-Na-8RV"/>
+                            <constraint firstItem="qRG-I7-5EU" firstAttribute="top" secondItem="Wgm-QC-y2z" secondAttribute="bottom" id="cig-l7-60C"/>
+                            <constraint firstItem="qna-B5-4iT" firstAttribute="trailing" secondItem="0cn-qI-6c6" secondAttribute="trailing" id="jDs-MT-2bI"/>
+                            <constraint firstItem="Wgm-QC-y2z" firstAttribute="top" secondItem="0cn-qI-6c6" secondAttribute="bottom" id="uyx-CI-AMM"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Ads" image="Ads" id="ykc-SE-2S6"/>
+                    <navigationItem key="navigationItem" id="KG8-By-abJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EWd-h8-Ct7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="546" y="-977"/>
+            <point key="canvasLocation" x="1339" y="-977"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qaA-co-EqN">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="RDW-P0-zWX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7AW-bj-Li6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="EI3-3P-oDq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="72f-dd-0ld"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jid-Rd-OEN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2119" y="-1548"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s97-IY-B5H">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="42o-dH-cic" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4hx-jP-Jeb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="URE-zd-WUw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eFz-zs-gPt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBn-TL-BkK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2119" y="-783"/>
         </scene>
         <!--Home-->
         <scene sceneID="saw-3j-y6t">
@@ -70,7 +165,7 @@
                     <connections>
                         <segue destination="eLQ-qK-nlv" kind="relationship" relationship="viewControllers" id="jc1-IR-aET"/>
                         <segue destination="EoE-OB-WbR" kind="relationship" relationship="viewControllers" id="7lk-eM-dgZ"/>
-                        <segue destination="ycF-1a-HEu" kind="relationship" relationship="viewControllers" id="cWb-Bq-JUB"/>
+                        <segue destination="pfw-T5-qG9" kind="relationship" relationship="viewControllers" id="cWb-Bq-JUB"/>
                         <segue destination="LhH-Q0-VGb" kind="relationship" relationship="viewControllers" id="IoK-Pm-P9Z"/>
                         <segue destination="jnf-z3-qH8" kind="relationship" relationship="viewControllers" id="gO2-14-tFU"/>
                         <segue destination="0th-w6-YJo" kind="relationship" relationship="viewControllers" id="DJc-xv-jdg"/>
@@ -140,7 +235,7 @@
                         <viewLayoutGuide key="safeArea" id="Rcd-Z2-ErM"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Blog" id="76M-yJ-99m"/>
+                    <tabBarItem key="tabBarItem" title="Blog" image="Blog" id="76M-yJ-99m"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BbO-hp-Ztx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -162,14 +257,37 @@
             </objects>
             <point key="canvasLocation" x="-1552" y="1004"/>
         </scene>
+        <!--Ads-->
+        <scene sceneID="Sw2-fg-SJO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="pfw-T5-qG9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ads" image="Ads" id="ykc-SE-2S6"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Pq-KE-nwG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ycF-1a-HEu" kind="relationship" relationship="rootViewController" id="YWD-aJ-Zyt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eg3-mG-nsi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544.92753623188412" y="-977.44565217391312"/>
+        </scene>
     </scenes>
     <resources>
         <image name="About" width="24" height="24"/>
         <image name="Ads" width="24" height="24"/>
+        <image name="Blog" width="24" height="24"/>
         <image name="Consultancy" width="24" height="24"/>
         <image name="Hiring" width="24" height="24"/>
         <image name="Home" width="24" height="24"/>
         <image name="Services" width="24" height="24"/>
         <image name="Training" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

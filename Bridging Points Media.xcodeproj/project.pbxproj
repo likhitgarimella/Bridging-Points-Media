@@ -23,6 +23,16 @@
 		024F4952262C5A4E005C04BB /* SearchEngineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4951262C5A4E005C04BB /* SearchEngineViewController.swift */; };
 		024F4954262C5A58005C04BB /* SocialMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4953262C5A58005C04BB /* SocialMediaViewController.swift */; };
 		024F4956262C5A69005C04BB /* WebAppDesignDevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4955262C5A69005C04BB /* WebAppDesignDevViewController.swift */; };
+		024F4958262C5E3B005C04BB /* AdvertisingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4957262C5E3B005C04BB /* AdvertisingViewController.swift */; };
+		024F495A262C5E4B005C04BB /* AffiliateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4959262C5E4B005C04BB /* AffiliateViewController.swift */; };
+		024F495C262C5E54005C04BB /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F495B262C5E54005C04BB /* ContentViewController.swift */; };
+		024F495E262C5E5F005C04BB /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F495D262C5E5F005C04BB /* EmailViewController.swift */; };
+		024F4960262C5EE9005C04BB /* InfluenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F495F262C5EE9005C04BB /* InfluenceViewController.swift */; };
+		024F4962262C5EF8005C04BB /* SeaEngViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4961262C5EF8005C04BB /* SeaEngViewController.swift */; };
+		024F4964262C5F0E005C04BB /* SocMedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4963262C5F0E005C04BB /* SocMedViewController.swift */; };
+		024F4966262C5F18005C04BB /* SmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4965262C5F18005C04BB /* SmsViewController.swift */; };
+		024F4968262C5F21005C04BB /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4967262C5F21005C04BB /* VideoViewController.swift */; };
+		024F496A262C5F2D005C04BB /* WhatsappViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4969262C5F2D005C04BB /* WhatsappViewController.swift */; };
 		029CA347262C2894007087F2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA346262C2894007087F2 /* AboutViewController.swift */; };
 		029CA34A262C28E1007087F2 /* AdsNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA349262C28E1007087F2 /* AdsNetworkViewController.swift */; };
 		029CA34D262C2908007087F2 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CA34C262C2908007087F2 /* ServicesViewController.swift */; };
@@ -53,6 +63,16 @@
 		024F4951262C5A4E005C04BB /* SearchEngineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngineViewController.swift; sourceTree = "<group>"; };
 		024F4953262C5A58005C04BB /* SocialMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaViewController.swift; sourceTree = "<group>"; };
 		024F4955262C5A69005C04BB /* WebAppDesignDevViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAppDesignDevViewController.swift; sourceTree = "<group>"; };
+		024F4957262C5E3B005C04BB /* AdvertisingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingViewController.swift; sourceTree = "<group>"; };
+		024F4959262C5E4B005C04BB /* AffiliateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffiliateViewController.swift; sourceTree = "<group>"; };
+		024F495B262C5E54005C04BB /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		024F495D262C5E5F005C04BB /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		024F495F262C5EE9005C04BB /* InfluenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfluenceViewController.swift; sourceTree = "<group>"; };
+		024F4961262C5EF8005C04BB /* SeaEngViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaEngViewController.swift; sourceTree = "<group>"; };
+		024F4963262C5F0E005C04BB /* SocMedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocMedViewController.swift; sourceTree = "<group>"; };
+		024F4965262C5F18005C04BB /* SmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsViewController.swift; sourceTree = "<group>"; };
+		024F4967262C5F21005C04BB /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		024F4969262C5F2D005C04BB /* WhatsappViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappViewController.swift; sourceTree = "<group>"; };
 		029CA346262C2894007087F2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		029CA349262C28E1007087F2 /* AdsNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsNetworkViewController.swift; sourceTree = "<group>"; };
 		029CA34C262C2908007087F2 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
@@ -96,15 +116,14 @@
 			children = (
 				0227573C262AD1CB00FEAF43 /* AppDelegate.swift */,
 				0227573E262AD1CB00FEAF43 /* SceneDelegate.swift */,
-				02275747262AD1CC00FEAF43 /* LaunchScreen.storyboard */,
-				02275742262AD1CB00FEAF43 /* Main.storyboard */,
-				02275745262AD1CC00FEAF43 /* Assets.xcassets */,
 				02275740262AD1CB00FEAF43 /* ViewController.swift */,
 				029CA346262C2894007087F2 /* AboutViewController.swift */,
 				029CA349262C28E1007087F2 /* AdsNetworkViewController.swift */,
+				02275747262AD1CC00FEAF43 /* LaunchScreen.storyboard */,
 				029CA35B262C4222007087F2 /* AdvertiserViewController.swift */,
 				029CA35E262C4240007087F2 /* PublisherViewController.swift */,
 				029CA34C262C2908007087F2 /* ServicesViewController.swift */,
+				02275742262AD1CB00FEAF43 /* Main.storyboard */,
 				024F4943262C59F4005C04BB /* CmsViewController.swift */,
 				024F4945262C5A07005C04BB /* EcommerceSolutionsViewController.swift */,
 				024F4947262C5A16005C04BB /* GoogleAdwordsViewController.swift */,
@@ -112,6 +131,18 @@
 				024F494B262C5A2B005C04BB /* LogoDesignViewController.swift */,
 				024F494D262C5A36005C04BB /* PublicRelationsViewController.swift */,
 				024F494F262C5A40005C04BB /* MarketingViewController.swift */,
+				02275745262AD1CC00FEAF43 /* Assets.xcassets */,
+				024F4957262C5E3B005C04BB /* AdvertisingViewController.swift */,
+				024F4959262C5E4B005C04BB /* AffiliateViewController.swift */,
+				024F495B262C5E54005C04BB /* ContentViewController.swift */,
+				024F495D262C5E5F005C04BB /* EmailViewController.swift */,
+				024F495F262C5EE9005C04BB /* InfluenceViewController.swift */,
+				024F4961262C5EF8005C04BB /* SeaEngViewController.swift */,
+				024F4963262C5F0E005C04BB /* SocMedViewController.swift */,
+				024F4965262C5F18005C04BB /* SmsViewController.swift */,
+				024F4967262C5F21005C04BB /* VideoViewController.swift */,
+				024F4969262C5F2D005C04BB /* WhatsappViewController.swift */,
+				0227574A262AD1CC00FEAF43 /* Info.plist */,
 				024F4951262C5A4E005C04BB /* SearchEngineViewController.swift */,
 				024F4953262C5A58005C04BB /* SocialMediaViewController.swift */,
 				024F4955262C5A69005C04BB /* WebAppDesignDevViewController.swift */,
@@ -119,7 +150,6 @@
 				029CA352262C293E007087F2 /* DigitalTrainingViewController.swift */,
 				029CA355262C2960007087F2 /* HiringViewController.swift */,
 				029CA358262C38DC007087F2 /* BlogViewController.swift */,
-				0227574A262AD1CC00FEAF43 /* Info.plist */,
 			);
 			path = "Bridging Points Media";
 			sourceTree = "<group>";
@@ -201,20 +231,30 @@
 				0227573D262AD1CB00FEAF43 /* AppDelegate.swift in Sources */,
 				024F4956262C5A69005C04BB /* WebAppDesignDevViewController.swift in Sources */,
 				024F4950262C5A40005C04BB /* MarketingViewController.swift in Sources */,
+				024F4968262C5F21005C04BB /* VideoViewController.swift in Sources */,
 				024F494C262C5A2B005C04BB /* LogoDesignViewController.swift in Sources */,
 				024F494E262C5A36005C04BB /* PublicRelationsViewController.swift in Sources */,
 				029CA350262C2922007087F2 /* DigitalConsultancyViewController.swift in Sources */,
 				029CA347262C2894007087F2 /* AboutViewController.swift in Sources */,
 				024F494A262C5A21005C04BB /* LeadGenerationViewController.swift in Sources */,
+				024F4960262C5EE9005C04BB /* InfluenceViewController.swift in Sources */,
+				024F495A262C5E4B005C04BB /* AffiliateViewController.swift in Sources */,
 				024F4946262C5A07005C04BB /* EcommerceSolutionsViewController.swift in Sources */,
 				029CA35F262C4240007087F2 /* PublisherViewController.swift in Sources */,
 				029CA35C262C4222007087F2 /* AdvertiserViewController.swift in Sources */,
 				024F4948262C5A16005C04BB /* GoogleAdwordsViewController.swift in Sources */,
 				0227573F262AD1CB00FEAF43 /* SceneDelegate.swift in Sources */,
 				029CA359262C38DC007087F2 /* BlogViewController.swift in Sources */,
+				024F4964262C5F0E005C04BB /* SocMedViewController.swift in Sources */,
+				024F495E262C5E5F005C04BB /* EmailViewController.swift in Sources */,
 				024F4952262C5A4E005C04BB /* SearchEngineViewController.swift in Sources */,
+				024F495C262C5E54005C04BB /* ContentViewController.swift in Sources */,
+				024F4962262C5EF8005C04BB /* SeaEngViewController.swift in Sources */,
+				024F4958262C5E3B005C04BB /* AdvertisingViewController.swift in Sources */,
 				029CA356262C2960007087F2 /* HiringViewController.swift in Sources */,
 				029CA34A262C28E1007087F2 /* AdsNetworkViewController.swift in Sources */,
+				024F4966262C5F18005C04BB /* SmsViewController.swift in Sources */,
+				024F496A262C5F2D005C04BB /* WhatsappViewController.swift in Sources */,
 				029CA353262C293E007087F2 /* DigitalTrainingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

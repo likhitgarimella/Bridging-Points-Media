@@ -223,10 +223,10 @@
             </objects>
             <point key="canvasLocation" x="1338" y="20"/>
         </scene>
-        <!--Cms View Controller-->
+        <!--Advertising View Controller-->
         <scene sceneID="5KI-eh-ANb">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Gpf-oc-dua" customClass="CmsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Gpf-oc-dua" customClass="AdvertisingViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7iq-vy-uop">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -238,10 +238,10 @@
             </objects>
             <point key="canvasLocation" x="2806" y="289"/>
         </scene>
-        <!--Ecommerce Solutions View Controller-->
+        <!--Affiliate View Controller-->
         <scene sceneID="pZw-ab-GXH">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vck-q2-FiW" customClass="EcommerceSolutionsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vck-q2-FiW" customClass="AffiliateViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zH4-1B-ngp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -253,10 +253,10 @@
             </objects>
             <point key="canvasLocation" x="3586" y="289"/>
         </scene>
-        <!--Google Adwords View Controller-->
+        <!--Content View Controller-->
         <scene sceneID="Tfk-EC-bse">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="f00-9V-Ovx" customClass="GoogleAdwordsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="f00-9V-Ovx" customClass="ContentViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7j4-uq-3av">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -268,10 +268,10 @@
             </objects>
             <point key="canvasLocation" x="4357" y="288"/>
         </scene>
-        <!--Lead Generation View Controller-->
+        <!--Email View Controller-->
         <scene sceneID="QDm-8D-WXQ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="wgI-Je-lQR" customClass="LeadGenerationViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="wgI-Je-lQR" customClass="EmailViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gNL-NW-iwp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -283,10 +283,10 @@
             </objects>
             <point key="canvasLocation" x="5129" y="288"/>
         </scene>
-        <!--Logo Design View Controller-->
+        <!--Influence View Controller-->
         <scene sceneID="caV-aB-7kI">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Daq-FH-hz3" customClass="LogoDesignViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Daq-FH-hz3" customClass="InfluenceViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sKd-Rc-QPE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -298,10 +298,10 @@
             </objects>
             <point key="canvasLocation" x="5897" y="288"/>
         </scene>
-        <!--Public Relations View Controller-->
+        <!--Sea Eng View Controller-->
         <scene sceneID="njT-8X-QuT">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="keo-6D-fwj" customClass="PublicRelationsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="keo-6D-fwj" customClass="SeaEngViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xT2-P3-kEo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -313,10 +313,10 @@
             </objects>
             <point key="canvasLocation" x="6667" y="288"/>
         </scene>
-        <!--Marketing View Controller-->
+        <!--Soc Med View Controller-->
         <scene sceneID="A3G-U5-AWy">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="ybX-eu-pXP" customClass="MarketingViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="ybX-eu-pXP" customClass="SocMedViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VL4-Mf-7Fi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -328,10 +328,10 @@
             </objects>
             <point key="canvasLocation" x="7452" y="289"/>
         </scene>
-        <!--Search Engine View Controller-->
+        <!--Sms View Controller-->
         <scene sceneID="nsX-3B-jGP">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="xl1-Hg-buj" customClass="SearchEngineViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="xl1-Hg-buj" customClass="SmsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NoL-EB-4MC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -343,10 +343,10 @@
             </objects>
             <point key="canvasLocation" x="8254" y="289"/>
         </scene>
-        <!--Social Media View Controller-->
+        <!--Video View Controller-->
         <scene sceneID="IaD-h6-XhB">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="nMb-it-ABA" customClass="SocialMediaViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="nMb-it-ABA" customClass="VideoViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Su-Vy-BHC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -358,10 +358,10 @@
             </objects>
             <point key="canvasLocation" x="9067" y="289"/>
         </scene>
-        <!--Web App Design Dev View Controller-->
+        <!--Whatsapp View Controller-->
         <scene sceneID="6ff-QJ-EKQ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="OFG-ZL-GxV" customClass="WebAppDesignDevViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="OFG-ZL-GxV" customClass="WhatsappViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9hH-92-5Fu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -494,6 +494,156 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8yJ-Cf-7tT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="544.92753623188412" y="20.380434782608699"/>
+        </scene>
+        <!--Cms View Controller-->
+        <scene sceneID="Dfx-G2-TtA">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="scx-2Z-Yam" customClass="CmsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fRc-NJ-LhB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="V3I-5q-PKV"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hBG-7Y-Yp5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7451" y="1324"/>
+        </scene>
+        <!--Ecommerce Solutions View Controller-->
+        <scene sceneID="KBm-yp-Vth">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="c3p-uZ-fN7" customClass="EcommerceSolutionsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fpp-5g-TIN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2o6-jz-DHe"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DIX-jP-ECx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8229" y="1324"/>
+        </scene>
+        <!--Google Adwords View Controller-->
+        <scene sceneID="tep-qF-BLE">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="b42-J8-SzN" customClass="GoogleAdwordsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zEo-Mb-hL7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="kAS-lP-VcW"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZRw-3u-guU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9000" y="1324"/>
+        </scene>
+        <!--Lead Generation View Controller-->
+        <scene sceneID="mIh-Vr-7K5">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="HZo-Vu-OKF" customClass="LeadGenerationViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YKi-F6-0VF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Jqk-zr-ICB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pNm-2v-mCk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9771" y="1324"/>
+        </scene>
+        <!--Logo Design View Controller-->
+        <scene sceneID="DsT-0V-gIx">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="MnP-tM-lvI" customClass="LogoDesignViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dou-ge-t05">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="cp2-zQ-7C1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cj3-gT-oGE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10541" y="1324"/>
+        </scene>
+        <!--Public Relations View Controller-->
+        <scene sceneID="giZ-5k-GpM">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="PGY-0v-rBz" customClass="PublicRelationsViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ldK-Ze-9aK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="u9U-OU-GoW"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KF8-uV-0kg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11310" y="1324"/>
+        </scene>
+        <!--Marketing View Controller-->
+        <scene sceneID="XNs-0O-gLK">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="lfh-d6-apu" customClass="MarketingViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8xF-q9-O5L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rWq-rp-1Oq"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aoo-MZ-glu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12096" y="1324"/>
+        </scene>
+        <!--Search Engine View Controller-->
+        <scene sceneID="guw-gq-buJ">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="PuN-bp-hQG" customClass="SearchEngineViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Lc-OE-59Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8nA-Fn-N9R"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7qG-UP-fj2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12897" y="1324"/>
+        </scene>
+        <!--Social Media View Controller-->
+        <scene sceneID="hXB-cq-DPe">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Xq3-Po-Ope" customClass="SocialMediaViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KG8-qc-BLq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ale-m3-dly"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UK2-jR-t2Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13712" y="1324"/>
+        </scene>
+        <!--Web App Design Dev View Controller-->
+        <scene sceneID="F4k-tF-aNa">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="h5D-vh-xNR" customClass="WebAppDesignDevViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fos-rS-8kJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="D6I-HV-Hgy"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T32-t3-eHB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14522" y="1324"/>
         </scene>
     </scenes>
     <resources>

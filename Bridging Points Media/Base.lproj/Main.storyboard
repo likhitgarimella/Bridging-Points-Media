@@ -494,8 +494,70 @@
                     <view key="view" contentMode="scaleToFill" id="7iq-vy-uop">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nwa-gC-FqO">
+                                <rect key="frame" x="0.0" y="45" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Q5B-91-vug"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Display Advertising">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TKq-XT-2eU" kind="show" id="sDV-cw-IIc"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lZb-hX-W54">
+                                <rect key="frame" x="20" y="90" width="394" height="0.6666666666666714"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="hj5-oK-2zM"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qvp-uh-xaY">
+                                <rect key="frame" x="0.0" y="91.666666666666671" width="414" height="44.000000000000014"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="bLU-uo-fVs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="      Print Advertising">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QiV-Qi-6A7" kind="show" id="e9J-8f-Tka"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3CV-4G-OyF">
+                                <rect key="frame" x="20" y="136.66666666666666" width="394" height="0.33333333333334281"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="UAp-qJ-Obh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="n8u-3P-edm"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3CV-4G-OyF" firstAttribute="leading" secondItem="7iq-vy-uop" secondAttribute="leading" constant="20" id="1eJ-TV-Ap3"/>
+                            <constraint firstItem="Nwa-gC-FqO" firstAttribute="leading" secondItem="n8u-3P-edm" secondAttribute="leading" id="Cy4-Ch-AUK"/>
+                            <constraint firstAttribute="trailing" secondItem="3CV-4G-OyF" secondAttribute="trailing" id="HAD-X3-jDR"/>
+                            <constraint firstItem="Qvp-uh-xaY" firstAttribute="trailing" secondItem="n8u-3P-edm" secondAttribute="trailing" id="Ma2-n6-i6J"/>
+                            <constraint firstItem="Qvp-uh-xaY" firstAttribute="leading" secondItem="n8u-3P-edm" secondAttribute="leading" id="apo-NJ-IpR"/>
+                            <constraint firstItem="3CV-4G-OyF" firstAttribute="top" secondItem="Qvp-uh-xaY" secondAttribute="bottom" constant="1" id="dvS-K9-Qpy"/>
+                            <constraint firstItem="lZb-hX-W54" firstAttribute="leading" secondItem="7iq-vy-uop" secondAttribute="leading" constant="20" id="gGi-3Q-LsX"/>
+                            <constraint firstItem="Nwa-gC-FqO" firstAttribute="top" secondItem="n8u-3P-edm" secondAttribute="top" constant="1" id="lOB-MZ-WOi"/>
+                            <constraint firstItem="Qvp-uh-xaY" firstAttribute="top" secondItem="lZb-hX-W54" secondAttribute="bottom" constant="1" id="lRo-hq-IUS"/>
+                            <constraint firstAttribute="trailing" secondItem="lZb-hX-W54" secondAttribute="trailing" id="ubz-8r-UKF"/>
+                            <constraint firstItem="lZb-hX-W54" firstAttribute="top" secondItem="Nwa-gC-FqO" secondAttribute="bottom" constant="1" id="v6c-c4-I8H"/>
+                            <constraint firstItem="Nwa-gC-FqO" firstAttribute="trailing" secondItem="n8u-3P-edm" secondAttribute="trailing" id="wgv-CH-uEg"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Advertising" id="5bk-hc-sE7"/>
                 </viewController>
@@ -513,6 +575,7 @@
                         <viewLayoutGuide key="safeArea" id="4fp-K9-DbL"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <navigationItem key="navigationItem" id="gKl-sg-Fci"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPh-br-L2R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -528,6 +591,7 @@
                         <viewLayoutGuide key="safeArea" id="q49-HK-2pi"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Ae2-ix-ARX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iMU-5W-M2z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

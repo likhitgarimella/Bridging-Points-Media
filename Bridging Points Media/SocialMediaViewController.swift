@@ -14,6 +14,8 @@ class SocialMediaViewController: UIViewController {
         super.viewDidLoad()
         
         let webview = WKWebView(frame: view.frame)
+        webview.translatesAutoresizingMaskIntoConstraints = false
+        webview.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         view.addSubview(webview)
         
         let url = URL(string: "https://www.bridgingpointsmedia.com/services/social-media-optimization/")!
@@ -22,4 +24,4 @@ class SocialMediaViewController: UIViewController {
         
     }
     
-}   // #26
+}   // #28

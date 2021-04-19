@@ -13,6 +13,8 @@
 		02275744262AD1CB00FEAF43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02275742262AD1CB00FEAF43 /* Main.storyboard */; };
 		02275746262AD1CC00FEAF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02275745262AD1CC00FEAF43 /* Assets.xcassets */; };
 		02275749262AD1CC00FEAF43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02275747262AD1CC00FEAF43 /* LaunchScreen.storyboard */; };
+		022A8DB8262E0558007C5557 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A8DB7262E0558007C5557 /* DisplayViewController.swift */; };
+		022A8DBA262E0561007C5557 /* PrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A8DB9262E0561007C5557 /* PrintViewController.swift */; };
 		024F4944262C59F4005C04BB /* CmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4943262C59F4005C04BB /* CmsViewController.swift */; };
 		024F4946262C5A07005C04BB /* EcommerceSolutionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4945262C5A07005C04BB /* EcommerceSolutionsViewController.swift */; };
 		024F4948262C5A16005C04BB /* GoogleAdwordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F4947262C5A16005C04BB /* GoogleAdwordsViewController.swift */; };
@@ -53,6 +55,8 @@
 		02275745262AD1CC00FEAF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02275748262AD1CC00FEAF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0227574A262AD1CC00FEAF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022A8DB7262E0558007C5557 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		022A8DB9262E0561007C5557 /* PrintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintViewController.swift; sourceTree = "<group>"; };
 		024F4943262C59F4005C04BB /* CmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CmsViewController.swift; sourceTree = "<group>"; };
 		024F4945262C5A07005C04BB /* EcommerceSolutionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceSolutionsViewController.swift; sourceTree = "<group>"; };
 		024F4947262C5A16005C04BB /* GoogleAdwordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAdwordsViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				024F494F262C5A40005C04BB /* MarketingViewController.swift */,
 				02275745262AD1CC00FEAF43 /* Assets.xcassets */,
 				024F4957262C5E3B005C04BB /* AdvertisingViewController.swift */,
+				022A8DB7262E0558007C5557 /* DisplayViewController.swift */,
+				022A8DB9262E0561007C5557 /* PrintViewController.swift */,
 				024F4959262C5E4B005C04BB /* AffiliateViewController.swift */,
 				024F495B262C5E54005C04BB /* ContentViewController.swift */,
 				024F495D262C5E5F005C04BB /* EmailViewController.swift */,
@@ -232,6 +238,7 @@
 				024F4956262C5A69005C04BB /* WebAppDesignDevViewController.swift in Sources */,
 				024F4950262C5A40005C04BB /* MarketingViewController.swift in Sources */,
 				024F4968262C5F21005C04BB /* VideoViewController.swift in Sources */,
+				022A8DBA262E0561007C5557 /* PrintViewController.swift in Sources */,
 				024F494C262C5A2B005C04BB /* LogoDesignViewController.swift in Sources */,
 				024F494E262C5A36005C04BB /* PublicRelationsViewController.swift in Sources */,
 				029CA350262C2922007087F2 /* DigitalConsultancyViewController.swift in Sources */,
@@ -249,6 +256,7 @@
 				024F495E262C5E5F005C04BB /* EmailViewController.swift in Sources */,
 				024F4952262C5A4E005C04BB /* SearchEngineViewController.swift in Sources */,
 				024F495C262C5E54005C04BB /* ContentViewController.swift in Sources */,
+				022A8DB8262E0558007C5557 /* DisplayViewController.swift in Sources */,
 				024F4962262C5EF8005C04BB /* SeaEngViewController.swift in Sources */,
 				024F4958262C5E3B005C04BB /* AdvertisingViewController.swift in Sources */,
 				029CA356262C2960007087F2 /* HiringViewController.swift in Sources */,
@@ -403,7 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77BWS8985H;
+				DEVELOPMENT_TEAM = 23B9F9FCMC;
 				INFOPLIST_FILE = "Bridging Points Media/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -424,7 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77BWS8985H;
+				DEVELOPMENT_TEAM = 23B9F9FCMC;
 				INFOPLIST_FILE = "Bridging Points Media/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

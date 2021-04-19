@@ -503,6 +503,36 @@
             </objects>
             <point key="canvasLocation" x="7600" y="1325"/>
         </scene>
+        <!--Display View Controller-->
+        <scene sceneID="7no-eQ-4oW">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="TKq-XT-2eU" customClass="DisplayViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jv4-42-oh8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4fp-K9-DbL"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPh-br-L2R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7600" y="2180"/>
+        </scene>
+        <!--Print View Controller-->
+        <scene sceneID="mpY-r7-gKC">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="QiV-Qi-6A7" customClass="PrintViewController" customModule="Bridging_Points_Media" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fg9-Cq-hDM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="q49-HK-2pi"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iMU-5W-M2z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8400" y="2180"/>
+        </scene>
         <!--Affiliate View Controller-->
         <scene sceneID="pZw-ab-GXH">
             <objects>

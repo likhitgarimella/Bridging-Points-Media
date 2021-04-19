@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import WebKit
 
 class EcommerceSolutionsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let webview = WKWebView(frame: view.frame)
+        view.addSubview(webview)
         
+        let url = URL(string: "https://www.bridgingpointsmedia.com/services/ecommerce/")!
+        let request = URLRequest(url: url)
+        webview.load(request)
         
     }
     
-}   // #20
+}   // #26

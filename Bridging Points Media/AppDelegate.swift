@@ -23,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = .white
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.black]
         
+        // UITableView.appearance().backgroundColor = .white
+        // UITableViewCell.appearance().backgroundColor = .white
+        
         /// Status bar color
         /// In Info.plist, View controller-based status bar appearance -> NO
         
@@ -53,4 +56,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-}   // #57
+}   // #60
